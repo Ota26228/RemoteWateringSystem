@@ -6,4 +6,4 @@ publish = "dist"
 from = "/api/*"
 to = "http://100.115.254.48:5000/:splat"
 status = 200
-force = false
+force = true
