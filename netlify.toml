@@ -1,5 +1,5 @@
 [build]
-command = "cargo build --release"
+command = "curl https://sh.rustup.rs -sSf | sh -s -- -y && source $HOME/.cargo/env && cargo install trunk && trunk build --release"
 publish = "dist"
 
 [[redirects]]
