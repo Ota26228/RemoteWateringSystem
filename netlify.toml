@@ -1,0 +1,9 @@
+[build]
+command = "cargo build --release"
+publish = "dist"
+
+[[redirects]]
+from = "/api/*"
+to = "http://100.115.254.48:5000/:splat"
+status = 200
+force = false
